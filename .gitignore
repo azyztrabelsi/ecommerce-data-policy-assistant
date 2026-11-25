@@ -1,0 +1,23 @@
+# Secrets
+.env
+
+# Data (never commit the raw dataset)
+data/raw/
+*.csv
+
+# Vector store and models
+chroma_db/
+*.pt
+*.safetensors
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+
+# Node
+node_modules/
+
+# OS / editor
+.DS_Store
+.vscode/
